@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday Yans 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+      background: #000;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .bg {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.4);
+      z-index: -2;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .content {
+      text-align: center;
+      padding: 3em 1em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.8em;
+      margin: 1.5em auto;
+      animation: fadeIn 3s ease-in-out;
+      max-width: 600px;
+    }
+
+    .signature {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.8em;
+      margin-top: 2em;
+      animation: fadeIn 4s ease-in-out;
+    }
+
+    .audio-player {
+      margin-top: 2em;
+      animation: fadeIn 5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 { font-size: 2em; }
+      p { font-size: 1.1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>Happy Birthday, Yans 💖</h1>
+    <p>
+      Who knew that day on the beach would turn into this?<br>
+      and something beginning that neither of us saw coming.<br><br>
+      I know we’re not physically together right now to wish you... but I made this to remind you:  
+      if we were...<br><br>
+      <strong>we wouldn’t be looking at this website — we’d be f**king instead, birthday sex😘 i had stuffs to give u for ur birthday but we still haven't met :( i miss youuu and come meet me ho LOVES YOUUU lots.</strong>
+    </p>
+
+    <div class="signature">
+      Love,<br>
+      Mommy Kevs
+    </div>
+
+    <div class="audio-player">
+      <iframe width="300" height="80"
+        src="https://www.youtube.com/embed/YgzHM5w4x0k?autoplay=1&loop=1&playlist=YgzHM5w4x0k"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</body>
+</html>
